@@ -278,7 +278,8 @@ h3 {
 .recording-card,
 .browse-card,
 .plan-card,
-.cta-block {
+.cta-block,
+.sponsor-block {
   padding: 1.25rem;
 }
 
@@ -330,6 +331,13 @@ h3 {
     radial-gradient(circle at top center, rgba(76, 207, 195, 0.16), transparent 34%),
     linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.3)),
     linear-gradient(135deg, #171b25, #0a0d12 74%);
+}
+
+.sponsor-block {
+  margin-top: 1rem;
+  background:
+    radial-gradient(circle at top right, rgba(255,255,255,0.08), transparent 28%),
+    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
 }
 
 .meta {
